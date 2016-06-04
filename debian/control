@@ -1,4 +1,4 @@
-Source: ddos
+Source: ddos-deflate
 Section: admin
 Priority: standard
 Maintainer: Maciej Krüger <mkg20001@gmail.com>
@@ -8,7 +8,7 @@ Homepage: https://github.com/jgmdev/ddos-deflate#readme
 Vcs-Git: git://github.com/jgmdev/ddos-deflate.git
 Vcs-Browser: https://github.com/jgmdev/ddos-deflate
 
-Package: ddos
+Package: ddos-deflate
 Architecture: all
 Depends: ${misc:Depends}, dsniff, dnsutils, net-tools, iptables, gawk, grep, sed, coreutils
 Description: DDoS Deflate

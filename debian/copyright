@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ddos
-Source: <url://example.com>
+Upstream-Name: ddos-deflate
+Source: https://github.com/jgmdev/ddos-deflate
 
 Files: *
 Copyright: 2005 Zaf <zaf@vsnl.com>
