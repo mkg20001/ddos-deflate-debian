@@ -7,6 +7,6 @@ dpkg:
 source: git dpkg
 	export DEBEMAIL="$(DEBEMAIL)"
 	export DEBFULLNAME="$(DEBFULLNAME)"
-	cd ddos-deflate;dch -i "Upload" --distribution=$(DIST);dpkg-buildpackage -sa -S -k$(KEYID)
+	cd ddos-deflate;dch -i "Upload" --distribution=$(DIST);dpkg-buildpackage -sa -S -k$(KEYID) -d
 deb: git dpkg
 	cd ddos-deflate;dpkg-buildpackage -us -uc
