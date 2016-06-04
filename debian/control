@@ -1,0 +1,15 @@
+Source: ddos
+Section: admin
+Priority: standard
+Maintainer: Maciej Krüger <mkg20001@gmail.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/jgmdev/ddos-deflate#readme
+Vcs-Git: git://github.com/jgmdev/ddos-deflate.git
+Vcs-Browser: https://github.com/jgmdev/ddos-deflate
+
+Package: ddos
+Architecture: any
+Depends: ${misc:Depends}
+Description: DDoS Deflate
+ Fork of DDoS Deflate http://deflate.medialayer.com/ with fixes, improvements and new features.
