@@ -9,7 +9,7 @@ Vcs-Git: git://github.com/jgmdev/ddos-deflate.git
 Vcs-Browser: https://github.com/jgmdev/ddos-deflate
 
 Package: ddos
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, dsniff
 Description: DDoS Deflate
  Fork of DDoS Deflate http://deflate.medialayer.com/ with fixes, improvements and new features.
